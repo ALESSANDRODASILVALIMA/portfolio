@@ -1,0 +1,83 @@
+.headerContainer {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+  }
+  
+  .headerLeft {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .greeting {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--white);
+  }
+  
+  .name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--green-500);
+  }
+  
+  .profession {
+    font-weight: 100;
+    font-size: 1.25rem;
+    color: var(--white);
+    margin-top: 0.625rem;
+  }
+  
+  .headerContainer button {
+    width: 150px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: solid 2px var(--green-500);
+    background-color: var(--green-300);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .headerContainer button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+  }
+  
+  .headerRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Adicione estilos ou conteúdo adicional */
+  }
+  
+  .headerLeft .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: white;
+  }
+
+  .headerLeft .icons a{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .headerLeft .icons .box-icon:hover{
+ 
+    color: var(--green-500);
+    
+  }
+
+  .headerLeft .icons a span{
+    margin-left: .5rem;
+  }

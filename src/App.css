@@ -1,42 +1,42 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+:root{
+  --white: #fff;
+  --black: #000000;
+
+  --gray-100: #e1e1e6; /* Cinza muito claro */
+  --gray-200: #c4c4cc; /* Cinza claro */
+  --gray-300: #a9a9b2; /* Cinza médio claro */
+  --gray-400: #8f8f9d; /* Cinza médio */
+  --gray-500: #737380; /* Cinza moderado */
+  --gray-600: #5c5c63; /* Cinza escuro */
+  --gray-700: #3f3f46; /* Cinza muito escuro */
+  --gray-800: #202024; /* Cinza quase preto */
+  --gray-900: #121214; /* Cinza preto */
+
+  --green-500: #00875f;
+
+  --green-300: #00B37E;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: var(--gray-900);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+

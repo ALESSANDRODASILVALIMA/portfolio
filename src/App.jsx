@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Navbar } from './components/Navbar'
+import { Header } from './components/Header'
 import './App.css'
 
 function App() {
@@ -12,8 +12,12 @@ function App() {
  */
   return (
     <>
-      <h1>Alessandor da Silva Lima</h1>
-      <div class="bg-linear-45 from-indigo-500 via-purple-500 to-pink-500 w-[100px] h-[100px] rounded-full"></div>
+    <div className="App">
+      <Navbar />
+      <Header />
+      
+    </div>
+      
     </>
   )
 }
